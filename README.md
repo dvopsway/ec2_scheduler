@@ -21,7 +21,23 @@ python setup.py install
 ## Getting Started :
 
 You need to pass access key & secret key to ec2_scheduler.
-Tip : create a seperate user account with only rights of stopping and starting instances.
+
+Tip : create a seperate user account with only rights of describing, stopping and starting instances. IAM policy for that is below:
+```
+{
+        "Statement": [
+                {
+                  "Action": [
+				    "ec2:DescribeInstances",
+                    "ec2:StartInstances",
+                    "ec2:StopInstances"
+				  ], 
+                  "Effect": "Allow", 
+                  "Resource": "*"
+                }
+              ]
+}
+```
 
 To get started, start with --help
 ```
