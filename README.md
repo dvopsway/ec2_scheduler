@@ -65,4 +65,4 @@ Check the example usage to get started
 
 ## Credits :
 
-Based on Shing Chen Article [Auto Start and Stop Your EC2 Instances](https://schen1628.wordpress.com/2014/02/04/auto-start-and-stop-your-ec2-instances/
+Based on Shing Chen Article [Auto Start and Stop Your EC2 Instances](https://schen1628.wordpress.com/2014/02/04/auto-start-and-stop-your-ec2-instances/)
