@@ -4,7 +4,7 @@ Wanna schedule stop and start of ec2 instances(like development machines) during
 
 ## Installation :
 
-Use pip to install ec2_scheduler (will be available soon)
+Use pip to install ec2_scheduler
 
 ```
 pip install ec2_scheduler
